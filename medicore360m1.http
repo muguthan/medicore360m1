@@ -1,0 +1,6 @@
+@medicore360m1_HostAddress = http://localhost:5279
+
+GET {{medicore360m1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
