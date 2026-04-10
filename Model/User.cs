@@ -4,13 +4,18 @@ namespace medicore360m1.Model
 {
     public class User
     {
-        //(UserID, Name, Role, Email, Phone
         [Key]
-        public int UserId{ get; set; }
-        public string Name{ get; set; }
-        public string Role {  get; set; }
+        public int UserId { get; set; }
+        [Required]
+        public string Name { get; set; }
+        [Required]
+        public string Role { get; set; }
+        [Required]
         public string Email { get; set; }
-        public double Phone { get; set; }
+        public string Phone { get; set; }
 
+        // Navigation Properties
+        public ICollection<AuditLog> AuditLogs { get; set; }
+        public ICollection<Notification> Notifications { get; set; }
     }
 }

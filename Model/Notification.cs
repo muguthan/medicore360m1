@@ -3,16 +3,18 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace medicore360m1.Model
 {
-    public class AuditLog
+    public class Notification
     {
         [Key]
-        public int AuditId { get; set; }
+        public int NotificationId { get; set; }
 
         [ForeignKey("User")]
         public int UserId { get; set; }
         [Required]
-        public string Action { get; set; }
-        public DateTime Timestamp { get; set; } = DateTime.UtcNow;
+        public string Message { get; set; }
+        public string Category { get; set; }
+        public string Status { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
 
         // Navigation Property
         public User User { get; set; }

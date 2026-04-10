@@ -154,3 +154,4 @@ C:\Users\2487448\OneDrive - Cognizant\Desktop\world\medicore360m1\obj\Debug\net1
 C:\Users\2487448\OneDrive - Cognizant\Desktop\world\medicore360m1\obj\Debug\net10.0\medicore360m1.pdb
 C:\Users\2487448\OneDrive - Cognizant\Desktop\world\medicore360m1\obj\Debug\net10.0\medicore360m1.genruntimeconfig.cache
 C:\Users\2487448\OneDrive - Cognizant\Desktop\world\medicore360m1\obj\Debug\net10.0\ref\medicore360m1.dll
+C:\Users\2487448\OneDrive - Cognizant\Desktop\world\medicore360m1\obj\Debug\net10.0\medicore360m1.sourcelink.json

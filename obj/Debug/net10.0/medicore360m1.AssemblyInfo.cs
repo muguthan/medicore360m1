@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("medicore360m1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+344248be20d3d73b52daea178828eedce72df876")]
 [assembly: System.Reflection.AssemblyProductAttribute("medicore360m1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("medicore360m1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
