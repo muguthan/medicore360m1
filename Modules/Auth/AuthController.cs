@@ -7,5 +7,6 @@ namespace medicore360m1.Modules.Auth
     [ApiController]
     public class AuthController : ControllerBase
     {
+        Console.WriteLine("hello");
     }
 }
